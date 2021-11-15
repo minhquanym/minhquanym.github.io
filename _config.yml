@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Nguyen Minh Quan"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "Undergraduate student | AI Researcher"
   location         : "Ha Noi - Viet Nam"
   employer         :
   pubmed           : 
@@ -178,9 +178,6 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
 
 
 # Defaults
@@ -212,15 +209,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
 
 # Sass/SCSS
 sass:
